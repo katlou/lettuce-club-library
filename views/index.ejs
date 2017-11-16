@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include partials/head %>
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="container">
+    <%- include partials/header %>
+    <div class="row" style="margin-top: 5%">
+      <div class="three columns">
+        <%- include partials/sidebar-nav %>
+      </div>
+      <div class="nine columns status-board">
+        <% if (error) { %>
+          <p>an unexpected error occured</p>
+        <% } else { %>
+          <h5>Status board</h5>
+          <ul class="stats-display">
+            <li><strong><%= data.book_count %></strong> books</li>
+            <li><strong><%= data.book_instance_count %></strong> copies</li>
+            <li><strong><%= data.book_instance_available_count %></strong> copies available</li>
+            <li><strong><%= data.author_count %></strong> authors</li>
+            <li><strong><%= data.genre_count %></strong> genres</li>
+          </ul>
+        <% } %>
+
+      </div>
+    </div>
+  </div>
+  <%- include partials/footer %>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

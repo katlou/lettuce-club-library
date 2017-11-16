@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include partials/head %>
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="container">
+    <%- include partials/header %>
+    <div class="row" style="margin-top: 5%">
+      <div class="three columns">
+        <%- include partials/sidebar-nav %>
+      </div>
+      <div class="nine columns">
+          <h5>Books:</h5>
+          <ul class="list-display">
+            <% book_list.forEach(function(book){ %>
+              <li><a href="<%= book.url %>"><%= book.title %></a> by <%= book.author.name %></li>
+            <% }); %>
+          </ul>
+      </div>
+    </div>
+  </div>
+  <%- include partials/footer %>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

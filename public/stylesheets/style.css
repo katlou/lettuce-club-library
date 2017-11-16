@@ -1,0 +1,14 @@
+body {
+  padding: 5%;
+  font: 13px "Avenir Next", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+  font-size: 40pt;
+  font-weight: 700;
+  text-transform: uppercase;
+}
