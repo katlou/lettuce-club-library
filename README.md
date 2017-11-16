@@ -5,3 +5,7 @@ A simple example of a local library web system built as a demo Express website. 
 
 ![screenshot of homepage](/public/images/screenshots/screenshot_home.png?raw=true)
 ![screenshot of book list](/public/images/screenshots/screenshot_books.png?raw=true)
+
+### dotenv
+
+Note: this project requires a .enf file
