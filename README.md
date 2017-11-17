@@ -3,9 +3,9 @@ A simple example of a local library web system built as a demo Express website. 
 
 ### Screenshots
 
-![screenshot of homepage](/public/images/screenshots/screenshot_home.png?raw=true)
-![screenshot of book list](/public/images/screenshots/screenshot_books.png?raw=true)
+![screenshot of homepage](/public/images/screenshots/screenshot-home.png?raw=true)
+![screenshot of book list](/public/images/screenshots/screenshot-books.png?raw=true)
 
-### dotenv
+### Install
 
-Note: this project requires a .enf file
+Please make sure to install all dependencies and then create the `.env` with `MLAB_DB` url.
