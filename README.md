@@ -8,4 +8,4 @@ A simple example of a local library web system built as a demo Express website. 
 
 ### Install
 
-Please make sure to install all dependencies and then create the `.env` with the `MLAB_URL`.
+Please make sure to install all dependencies and then create the `.env` with the `MLAB_URL`. Run `populatedb.js` to populate databse with demo documents.
