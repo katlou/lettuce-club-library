@@ -1,5 +1,5 @@
 # Lettuce Club Library
-A simple example of a local library web system built as a demo Express website. This project is heavily based on the local library tutorial from the Mozilla Developer Network. The most notable deviation from the MDN tutorial is that this project uses ejs as the view engine instead of pug.
+A simple example of a local library web system built as a demo Express website. This project is heavily based on the [local library tutorial from the Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website). The most notable deviation from the MDN tutorial is that this project uses ejs as the view engine instead of pug.
 
 ### Status
 
