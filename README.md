@@ -3,7 +3,7 @@ A simple example of a local library web system built as a demo Express website. 
 
 ### Status
 
-I am at Stage 5 in the tutorial, just before installing moment.
+I am at Stage 5 in the tutorial, just after installing moment.
 
 ### Screenshots
 

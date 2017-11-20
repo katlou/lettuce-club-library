@@ -23,9 +23,9 @@
                 <% if (val.status == 'Available') { %>
                   <span class="success"><%= val.status %></span>
                 <% } else if (val.status == 'Maintenance') { %>
-                  <span class="warning"><%= val.status %></span> - (Due: <%= val.due_back %>)
+                  <span class="warning"><%= val.status %></span> - (Due: <%= val.due_back_formatted %>)
                 <% } else if (val.status == "Loaned") { %>
-                  <span class="danger"><%= val.status %></span> - (Due: <%= val.due_back %>)
+                  <span class="danger"><%= val.status %></span> - (Due: <%= val.due_back_formatted %>)
                 <% } %>
               </li>
             <% }); %>
